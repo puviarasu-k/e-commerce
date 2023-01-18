@@ -1,0 +1,23 @@
+.productimage {
+    width: 90%;
+    border-radius: 1%;
+    height: 90%;
+    /* margin-left: 10%; */
+    margin-left: 8%;
+    margin-top: 5%;
+    /* transform: scale(1.1) */
+}
+
+.imagediv {
+    border-style: groove;
+    border-radius: 1%;
+    float: left;
+     /* height: 100%;
+    width: 50%; */
+}
+
+.maindiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
